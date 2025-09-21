@@ -4,7 +4,6 @@ A simple and elegant **coffee shop homepage** built with **HTML, CSS, and Font A
 This project is designed to showcase a café’s menu, categories, and about section with a clean UI and responsive layout.  
 
 ---
-![Uploading image.png…]()
 
 ## 🌟 Features  
 
