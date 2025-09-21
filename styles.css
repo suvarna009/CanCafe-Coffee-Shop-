@@ -1,0 +1,171 @@
+*{
+	margin:0;
+	font-family: Arial;
+	border:border-box;
+}
+
+.navbar{
+	justify-content: space-evenly;
+	height: 90px;
+	background-color:#410200;
+	color: white;
+	display: flex;
+}
+.nav-logo{
+	height: 100px;
+	width: 100px;
+	display: flex;
+	
+}
+.logo{
+	background-image: url("mlogo.png");
+    background-size: cover;
+	height: 90px;
+	width: 90%;
+	padding-bottom: 5px;
+	
+}
+.border{
+	border:1.5px solid transparent;
+}
+.border:hover{
+	border:1.5px solid white;
+}
+.location{
+	padding-left: 30px;
+	display: flex;
+	align-items:center;
+	
+}
+.location_icon{
+	padding-bottom:10px;
+	height:18px;
+	font-size: 30px;
+}
+.ltext{
+	padding-left: 5px;
+	font-size: 15px;
+
+}
+.store{
+	padding-left: 30px;
+	display: flex;
+	align-items:center;
+	
+}
+.store_icon{
+	padding-bottom:10px;
+	height:18px;
+	font-size: 30px;
+}
+.stext{
+	padding-left: 5px;
+	font-size: 15px;
+
+}
+.search{
+	padding: 25px 0px 25px 30px;
+	display:flex;
+}
+.search_icon{
+	font-size:25px;
+	padding:5px 0px 10px 3px;
+	background-color: brown;
+	background-size: 7px;
+}
+.wishlist{
+	padding-left: 30px;
+	display: flex;
+	align-items:center;
+	
+}
+.wishlist_icon{
+	padding-bottom:10px;
+	height:18px;
+	font-size: 30px;
+}
+.wtext{
+	padding-left: 5px;
+	font-size: 15px;
+}
+.checkout{
+	padding-left: 30px;
+	display: flex;
+	align-items:center;
+	
+}
+.checkout_icon{
+	padding-bottom:10px;
+	height:18px;
+	font-size: 30px;
+}
+.ctext{
+	padding-left: 5px;
+	font-size: 15px;
+}
+.main{
+	background-image: url("mhero1.png");
+    background-size: cover;
+	height: 300px;
+	width: 100%;
+}
+h1{
+	padding-left: 5px; 
+	margin-top:4px; 
+	margin-bottom: 3px;
+	align-self: center;
+	background-color:#f9dfb8;
+}
+.shop-section{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: space-evenly;
+	background-color: #f7ae62;
+}
+.box {
+	height: 400px;
+	width: 23%;
+	background-color: #410200;
+	padding: 20px 0px 15px;
+	margin-top: 15px;
+	border: 1px solid #bfe0af;
+}
+.box-img{
+	height: 300px;
+	background-size:cover;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	border-radius:10%;
+}
+.box-content{
+	color: white;
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+.box-content p{
+	color:white;
+	text-decoration: underline;
+	
+} 
+.footer{
+	margin-top: 5px;
+}
+.f1{
+	height: 50px;
+	border: 2px solid green;
+	color: white;
+	background-color: #b38b6d;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	font-size:0.85rem;
+}
+.form{
+	display:flex;
+	justify-content: center;
+	justify-content: space-evenly;
+}
+.input textbox{
+	width: 30px;
+	height: 30px;
+}
